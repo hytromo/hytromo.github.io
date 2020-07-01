@@ -1,0 +1,241 @@
+{
+  "selectedTemplate": 7,
+  "headings": {
+    "work": "Experience",
+    "volunteering": "Volunteering",
+    "projects": "Projects",
+    "education": "Education",
+    "skills": "Skills",
+    "awards": "Awards",
+    "papers": "Papers"
+  },
+  "basics": {
+    "email": "solanosalex@gmail.com",
+    "phone": "+30 6945482042",
+    "website": "hytromo.github.io",
+    "location": {
+      "address": "Patras, Greece"
+    },
+    "name": "Alexandros Solanos"
+  },
+  "education": [
+    {
+      "location": "Patras, Greece",
+      "studyType": "Master's",
+      "startDate": "Sep 2012",
+      "endDate": "present",
+      "institution": "University of Patras",
+      "area": "Electrical and Computer Engineering",
+      "gpa": "~7 (pending)"
+    }
+  ],
+  "work": [
+    {
+      "company": "TourPanda",
+      "location": "Patras, Greece",
+      "position": "Software Engineer",
+      "website": "https://tourpanda.com",
+      "endDate": "Present",
+      "highlights": [
+        "Backend (Node.js, Redis, MongoDB, PostgreSQL)",
+        "Frontend (React.js, Next.js, jQuery)",
+        "Devops (IaC in DO/GCP, CI/CD with Kubernetes)",
+        "Scrum Master"
+      ],
+      "startDate": "Sep 2016"
+    },
+    {
+      "highlights": [
+        "Building resource tracking application (PHP)",
+        "General IT support"
+      ],
+      "website": "https://ferrycenter.gr/",
+      "company": "Blue Star Ferries Agency",
+      "position": "IT support",
+      "location": "Patras, Greece",
+      "startDate": "Sep 2014",
+      "endDate": "Sep 2016"
+    }
+  ],
+  "volunteering": [
+    {
+      "company": "TsikiBoom Camping",
+      "website": "https://tsikiboom.com",
+      "endDate": "Jul 2010",
+      "highlights": ["Team activities", "Creative learning"],
+      "position": "Assistant to the team leader",
+      "location": "Chania, Greece",
+      "startDate": "Jun 2010"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywordInfo": {
+        "Typescript": {
+          "level": 90,
+          "moreInfo": "I have worked in large-scale projects for years in Typescript and Javascript. I've worked both in the backend and in the frontend using various frameworks and I also have knowledge about bundlers, like webpack and rollup."
+        },
+        "Python 2/3": {
+          "level": 60,
+          "moreInfo": "I have worked a lot of times using python but mostly in order to automate things or build small libraries. I haven't worked in large-scale projects using python. My latest noteworthy experience with it was to automate the deployment of a minikube kubernetes cluster in a development enviroment and streamlining the development inside it."
+        },
+        "Bash": {
+          "level": 70,
+          "moreInfo": "While bash was my first programming language, I try to avoid it in most cases, because complex logic and loops can become awkward fast. My latest experience with bash was using it in order to orchestrate complex CI/CD processes."
+        },
+        "PHP": {
+          "level": 70,
+          "moreInfo": "PHP was the first language of the web I learned and I've worked with it with various frameworks (Laravel, CakePHP) as well as vanilla, to better understand its internal workings. I haven't touched it since PHP 7 came out, though."
+        },
+        "C / C++": {
+          "level": 60,
+          "moreInfo": "C was my second programming language and I learned algorithms and data structures with it. My latest noteworthy experience with it was programming along with a friend a Bosch XDK for an IoT contest organized by Bosch (and we got first place!). C++ can be very complex and thus I can't claim I know it well, but I've built Wallch with it, along with a friend. Wallch made it into the Ubuntu repositories back in 2010, when we were 16. While Wallch was a simple wallpaper changer program, it was developed further as a learning experience: It used multithreading to not block the UI thread while loading images, a caching mechanism to quickly load thumbnails, it could combine pictures (clock-wallpapers) and it accessed the internet to download a \"live\" earth image (built by a third party) and set a live website as desktop background. It also integrated with the (now dead) Ubuntu Unity desktop by utilizing Gtk libraries."
+        },
+        "Java": {
+          "level": 40,
+          "moreInfo": "My only experience with Java is in university, covering OOP and advanced programming techniques like multi-threading, semaphores etc. I haven't used it to build anything meaningful ever."
+        }
+      },
+      "keywords": [
+        "Typescript",
+        "Python 2/3",
+        "Bash",
+        "PHP",
+        "C / C++",
+        "Java"
+      ],
+      "name": "Programming Languages"
+    },
+    {
+      "keywords": [
+        "Express.js",
+        "Next.js",
+        "React.js",
+        "Nest.js",
+        "CakePHP",
+        "Qt (C++ and Python)",
+        "Gtk 2.0",
+        "Various ORMs"
+      ],
+      "name": "Libs / Frameworks"
+    },
+    {
+      "keywordInfo": {
+        "Kubernetes": {
+          "level": 70,
+          "moreInfo": "I started learning kubernetes out of a necessity to automate the integration and deployment processes in TourPanda. I have used both Google Kubernetes Engine in production and Minikube as a development environment and I've built complex deployment environments inside the cluster, with autoscaling, monitoring, databases and more."
+        },
+        "Helm": {
+          "level": 70,
+          "moreInfo": "I've used helm for the templating of kubernetes manifests in production. While I've worked with it a lot, I wouldn't consider myself an expert in authoring helm charts."
+        },
+        "Helmfile": {
+          "level": 80,
+          "moreInfo": "I've used helmfile extensively, along with lots of its features, like selectors, environments and subhelmfiles in order to organize, define dependencies and streamline the deployment of helm charts. Helmfile has been used as part of a CI/CD pipeline."
+        },
+        "Ansible": {
+          "level": 40,
+          "moreInfo": "I've worked with ansible shortly in order to automate the configuration of VMs in the Cloud, before moving on to kubernetes where ansible wasn't used."
+        },
+        "Terraform": {
+          "level": 80,
+          "moreInfo": "I have used terraform as IaC in Digital Ocean and Google Cloud Platform. I have created terraform modules, working in different environments, saving the state in remote backends and referencing remote state. I have also used terraform in CI/CD in order to do infrastructure changes similarly to how we do code changes, creating a unified pipeline."
+        }
+      },
+      "keywords": ["Kubernetes", "Helm", "Helmfile", "Ansible", "Terraform"],
+      "name": "Devops tools"
+    },
+    {
+      "keywords": [
+        "Lead of developer team",
+        "Scrum Master",
+        "Interviewing for technical positions",
+        "Public speaking"
+      ],
+      "name": "People"
+    },
+    {
+      "keywordInfo": {
+        "Greek (native)": {
+          "level": 100
+        },
+        "English (C2)": {
+          "level": 90,
+          "moreInfo": "I have obtained the certificate of proficiency in English from the University of Michigan. I am fluent in English and I've been working in an all-english speaking team for 4 years full-time."
+        }
+      },
+      "keywords": ["Greek (native)", "English (C2)"],
+      "name": "Languages"
+    },
+    {
+      "keywords": ["VSCode", "Vim", "QtCreator", "Eclipse", "Sublime Text"],
+      "name": "Editors"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Wallch",
+      "keywords": ["C++ / Qt"],
+      "description": "A first C++ GUI experiment that made its way into the official Ubuntu repositories (2010); a wallpaper changer. A big learning project that used multithreading to not block the UI thread.",
+      "url": "https://launchpad.net/wallpaper-changer"
+    },
+    {
+      "keywords": ["PHP / CakePHP", "MySQL"],
+      "name": "MalvaGallery",
+      "description": "A simple website built with CakePHP for my artist uncle. A learning project for web development which also features users and paintings management.",
+      "url": "https://malvagallery.com/"
+    },
+    {
+      "keywords": ["PHP / CakePHP", "MySQL"],
+      "name": "University Department E-class",
+      "url": "https://github.com/themetalfleece/university-department-eclass-project",
+      "description": "An open e-class clone (https://www.openeclass.org/en/); a university project. Co-created along with another university student."
+    },
+    {
+      "keywords": ["Python 3"],
+      "name": "python-digitalocean-ssh",
+      "description": "A python project aimed to make DO VMs easily accessible via ssh at any time.",
+      "url": "https://github.com/hytromo/python-digitalocean-ssh"
+    },
+    {
+      "keywords": ["Python 2 / Qt"],
+      "name": "MacroPolo",
+      "description": "A python module that can be used in order to automate high-level processes (macros)",
+      "url": "https://github.com/hytromo/MacroPolo"
+    },
+    {
+      "keywords": ["C++ / Qt"],
+      "name": "Anem",
+      "description": "A graph generator that combined the powers of C++, ImageMagick and rrdtool to generate graphs regarding the power output, wind direction and wind speed of wind turbines. This side-project is dating back to 2013 and it wasn't intended for production use but it ended up being used for years by Petrogaz (https://www.petrogaz.gr/en/). Sadly the project got discontinued.",
+      "url": "https://github.com/hytromo/anem"
+    }
+  ],
+  "papers": [
+    {
+      "name": "Cyber-Physical Microservices: An IoT-based Framework for Manufacturing Systems",
+      "description": "Conference: 1st IEEE International Conference on Industrial Cyber-Physical Systems (ICPS 2018), Saint Petersburg, Russia, May 15-18, 2018.",
+      "url": "https://bit.ly/2BXPLsz",
+      "keywords": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Bosch XDK Ideation Jam Winner",
+      "date": " Aug 2016",
+      "awarder": "Bosch",
+      "summary": "Our team's project was deemed to be the best on using Bosch's XDK in an internet of things application: https://www.youtube.com/watch?v=kPfR4irPERg"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards",
+    "volunteering",
+    "papers"
+  ]
+}
