@@ -117,8 +117,8 @@
           "moreInfo": "C was my second programming language and I learned algorithms and data structures with it. My latest noteworthy experience with it was programming along with a friend a Bosch XDK for an IoT contest organized by Bosch (and we got first place!). C++ can be very complex and thus I can't claim I know it well, but I've built Wallch with it, along with a friend. Wallch made it into the Ubuntu repositories back in 2010, when we were 16. While Wallch was a simple wallpaper changer program, it was developed further as a learning experience: It used multithreading to not block the UI thread while loading images, a caching mechanism to quickly load thumbnails, it could combine pictures (clock-wallpapers) and it accessed the internet to download a \"live\" earth image (built by a third party) and set a live website as desktop background. It also integrated with the (now dead) Ubuntu Unity desktop by utilizing Gtk libraries."
         },
         "Java": {
-          "level": 40,
-          "moreInfo": "My only experience with Java is in university, covering OOP and advanced programming techniques like multi-threading, semaphores etc."
+          "level": 60,
+          "moreInfo": "Using Java, I have built NotiSIM for Android, an app that sends an SMS message to a configured phone number if it detects a change in SIM. I also have experience with Java in university, covering OOP and advanced programming techniques like multi-threading, semaphores etc."
         }
       },
       "keywords": [
@@ -282,6 +282,24 @@
           "isAnimated": false,
           "alt": "Enrolled courses schedule (student view)",
           "description": "Enrolled courses schedule (student view)"
+        }
+      ]
+    },
+    {
+      "keywords": ["Java", "Android"],
+      "name": "NotiSIM",
+      "roleDescription": "I built this project as an alternative way to protect your phone",
+      "description": "NotiSIM will send an SMS message to a number of your preference when it detects that your SIM card has changed. That way you can easily get the phone number of the newly inserted SIM card, in case your phone is stolen. The application supports white-listing any number of SIM cards, so 2 or more people can use the same phone with different SIM cards. Note that the application runs only on boot for detecting SIM changes and thus it does not run constantly, draining your battery.",
+      "pictures": [
+        {
+          "isAnimated": false,
+          "alt": "The setup screen where you can input the number to send the message to and the message itself",
+          "description": "The setup screen where you can input the number to send the message to and the message itself"
+        },
+        {
+          "isAnimated": false,
+          "alt": "The screen that allows you to change the whitelisted SIMs",
+          "description": "The screen that allows you to change the whitelisted SIMs"
         }
       ]
     },
