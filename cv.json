@@ -31,6 +31,7 @@
         "I built a RESTful API using Nest.js for analytics purposes.",
         "I developed the booking assistant, the application which end-users book from, and a large part of the dashboard, using React.js.",
         "I transitioned the deployment to Kubernetes, with a staging and a production environment, IaC in GCP and a complex CI/CD pipeline within 2 months, cutting operational costs by over 40 percent and facilitating a faster, fully-automatic and less error prone release cycle, freeing valuable developer time.",
+        "I implemented the frontend and the backend of multiple live-update systems based on WebSockets.",
         "I was the Scrum Master in our Agile process, obtaining a deep understanding on the Agile culture and why there are certain practices around it.",
         "I worked with Node.js, Redis, MongoDB and PostgreSQL in the backend.",
         "I worked with React.js, Next.js and jQuery in the frontend."
