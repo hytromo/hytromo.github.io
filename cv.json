@@ -25,7 +25,7 @@
       "position": "Software and Devops Engineer",
       "website": "https://tourpanda.com",
       "highlights": [
-        "I worked as Lead of the developer team, managing people and developing software.",
+        "I worked as Lead of the developer team, managing people and developing software using test-driven development (TDD).",
         "I designed and built a complex, horizontally scalable RESTful API using Node.js.",
         "I created the main custom application-level algorithms for the resource availability, agnostic of resource type and resource characteristics.",
         "I built a RESTful API using Nest.js for analytics purposes.",
@@ -33,6 +33,7 @@
         "I transitioned the deployment to Kubernetes, with a staging and a production environment, IaC in GCP and a complex CI/CD pipeline within 2 months, cutting operational costs by over 40 percent and facilitating a faster, fully-automatic and less error prone release cycle, freeing valuable developer time.",
         "I implemented the frontend and the backend of multiple live-update systems based on WebSockets.",
         "I was the Scrum Master in our Agile process, obtaining a deep understanding on the Agile culture and why there are certain practices around it.",
+        "I wrote unit, integration and e2e tests (using cypress).",
         "I worked with Node.js, Redis, MongoDB and PostgreSQL in the backend.",
         "I worked with React.js, Next.js and jQuery in the frontend."
       ],
