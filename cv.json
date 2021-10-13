@@ -20,8 +20,27 @@
 	},
 	"work": [
 		{
+			"company": "Omilia",
+			"location": "Patras, Greece (Remote)",
+			"position": "Senior Devops Engineer",
+			"website": "https://omilia.com",
+			"highlights": [
+				"Multi-cloud and multi-account network redesign and implementation using Transit Gateways and transitive routing, automated fully through IaC using best practices that vastly simplified the life of every employee, saving precious engineering time.",
+				"Reimplementation of existing Terraform modules for AWS and creation of new ones, making setup and configuration of new environments a breeze, giving to the company the ability to make Agile decisions based on the needed infrastructure.",
+				"Full implementation of PCI-DSS requirements at infrastructure level (encryption at rest / in transit, logging, alarms, policies etc) using IaC using all the required AWS services, ensuring successful audit results.",
+				"Completely dynamic CI implementation for fast and iterative Terraform module development, making writing new modules and testing new technologies a fast and worry-free experience.",
+				"Implement CI/CD processes using Gitlab CE and EE, including static code analysis, testing, image building and deployment using Ansible, empowering the developers to take full ownership of their projects.",
+				"Automate the deployment and configuration / user management of the company's Bastion using idempotent Ansible, a key component to the security of our production systems.",
+				"Create, administer and maintain various CentOS environments in AWS and Azure using Terraform, Jenkins and Docker Swarm.",
+				"Implement and take ownership of serverless functions in AWS and Azure related to cost savings and production workloads in Python and Node.js.",
+				"Build and maintain an HIDS using Wazuh, automating the Wazuh agent installation and configuration, including POC on Kubernetes deployment."
+			],
+			"startDate": "Sep 2020",
+			"endDate": "Present"
+		},
+		{
 			"company": "TourPanda",
-			"location": "Patras, Greece",
+			"location": "Patras, Greece (Remote)",
 			"position": "Software and Devops Engineer",
 			"website": "https://tourpanda.com",
 			"highlights": [
@@ -38,11 +57,11 @@
 				"I worked with React.js, Next.js and jQuery in the frontend."
 			],
 			"startDate": "Sep 2016",
-			"endDate": "Present"
+			"endDate": "Sep 2020"
 		},
 		{
 			"highlights": [
-				"I modernized the processes of the company: from doing data entry and manual comparison using different and inconsistent excel files, the users could now do data entry in a friendly and dynamic web interface which I built. The app was fed all the excel files and could do powerful comparisons of the aggregations of the data between different years, and of course allowed entry of new data. The application freed several man-hours per day and ended up being used years after my departure (and may still be used). The frontend was built in jQuery and the backend used CakePHP and MySQL.",
+				"I modernized the processes of the company: from doing data entry and manual comparison using different and inconsistent excel files, the users could now do data entry in a friendly and dynamic web interface which I built. The app was fed all the excel files and could do powerful comparisons of the aggregations of the data between different years, and of course allowed entry of new data. The application freed several man-hours per day and as of September 2021 the application is still being used daily. The frontend was built in jQuery and the backend used CakePHP and MySQL.",
 				"I did generic IT support on Windows-based users."
 			],
 			"website": "https://ferrycenter.gr/",
@@ -61,7 +80,7 @@
 			"endDate": "present",
 			"institution": "University of Patras",
 			"area": "Electrical and Computer Engineering",
-			"gpa": "7.27/10, Thesis: Design and implementation of a prototype IoT system based on containers and the Lightweight M2M protocol"
+			"gpa": "7.27, Thesis: Design and implementation of a prototype IoT system based on containers and the Lightweight M2M protocol"
 		}
 	],
 	"volunteering": [
@@ -99,6 +118,15 @@
 	],
 	"skills": [
 		{
+			"keywords": [
+				"AWS",
+				"Azure",
+				"GCP",
+				"Digital Ocean"
+			],
+			"name": "Cloud experience"
+		},
+		{
 			"level": "",
 			"keywordInfo": {
 				"Typescript": {
@@ -124,6 +152,10 @@
 				"Java": {
 					"level": 60,
 					"moreInfo": "Using Java, I have built NotiSIM for Android, an app that sends an SMS message to a configured phone number if it detects a change in SIM. I also have experience with Java in university, covering OOP and advanced programming techniques like multi-threading, semaphores etc."
+				},
+				"Golang": {
+					"level": 60,
+					"moreInfo": "I'm very interested in Golang with a big side-project on the works that integrates with container registries and Kubernetes using goroutines."
 				}
 			},
 			"keywords": [
@@ -132,7 +164,8 @@
 				"Bash",
 				"PHP",
 				"C / C++",
-				"Java"
+				"Java",
+				"Golang"
 			],
 			"name": "Programming Languages"
 		},
@@ -153,7 +186,7 @@
 			"keywordInfo": {
 				"Kubernetes": {
 					"level": 70,
-					"moreInfo": "I started learning kubernetes out of a necessity to automate the integration and deployment processes in TourPanda. I have used both Google Kubernetes Engine in production and Minikube as a development environment and I've built complex deployment environments inside the cluster, with autoscaling, monitoring, databases and more."
+					"moreInfo": "I started learning kubernetes out of a necessity to automate the integration and deployment processes in TourPanda. I have used both Google Kubernetes Engine in production and Minikube as a development environment and I've built complex deployment environments inside the cluster, with autoscaling, monitoring, databases and more. These days I'm using Kubernetes daily mostly on side projects."
 				},
 				"Helm": {
 					"level": 70,
@@ -164,12 +197,12 @@
 					"moreInfo": "I've used helmfile extensively, along with lots of its features, like selectors, environments and subhelmfiles in order to organize, define dependencies and streamline the deployment of helm charts. Helmfile has been used as part of a CI/CD pipeline."
 				},
 				"Ansible": {
-					"level": 40,
-					"moreInfo": "I've worked with ansible shortly in order to automate the configuration of VMs in the Cloud, before moving on to kubernetes where ansible wasn't used."
+					"level": 80,
+					"moreInfo": "I've worked with idempotent Ansible extensively for the configuration of VMs like a Bastion host and the implementation of CD for Docker Swarm."
 				},
 				"Terraform": {
-					"level": 80,
-					"moreInfo": "I have used terraform as IaC in Digital Ocean and Google Cloud Platform. I have created terraform modules, working in different environments, saving the state in remote backends and referencing remote state. I have also used terraform in CI/CD in order to do infrastructure changes similarly to how we do code changes, creating a unified pipeline."
+					"level": 100,
+					"moreInfo": "I have used Terraform as IaC in AWS, Digital Ocean, Azure and Google Cloud Platform in a daily basis. I have created terraform modules for multi-account AWS usage, including a dynamic CI process for them, working in different deployment environments, saving and referencing remote state. I have also used terraform in CI/CD in order to do infrastructure changes similarly to how we do code changes, creating a unified pipeline."
 				}
 			},
 			"keywords": [
@@ -186,7 +219,8 @@
 				"Lead of developer team",
 				"Scrum Master",
 				"Interviewing for technical positions",
-				"Public speaking"
+				"Public speaking",
+				"Knowledge sharing"
 			],
 			"name": "People"
 		},
@@ -197,7 +231,7 @@
 				},
 				"English (C2)": {
 					"level": 90,
-					"moreInfo": "I have obtained the certificate of proficiency in English from the University of Michigan. I am fluent in English and I've been working in an all-english speaking team for 4 years full-time."
+					"moreInfo": "I have obtained the certificate of proficiency in English from the University of Michigan. I am fluent in English and I've been working in an all-english speaking team for 4 years full-time and I continue speaking and writing English daily."
 				}
 			},
 			"keywords": [
