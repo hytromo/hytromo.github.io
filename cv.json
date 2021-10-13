@@ -44,17 +44,15 @@
 			"position": "Software and Devops Engineer",
 			"website": "https://tourpanda.com",
 			"highlights": [
-				"I worked as Lead of the developer team, managing people and developing software using test-driven development (TDD).",
-				"I designed and built a complex, horizontally scalable RESTful API using Node.js.",
-				"I created the main custom application-level algorithms for the resource availability, agnostic of resource type and resource characteristics.",
-				"I built a RESTful API using Nest.js for analytics purposes.",
-				"I developed the booking assistant, the application which end-users book from, and a large part of the dashboard, using React.js.",
-				"I transitioned the deployment to Kubernetes, with a staging and a production environment, IaC in GCP and a complex CI/CD pipeline within 2 months, cutting operational costs by over 40 percent and facilitating a faster, fully-automatic and less error prone release cycle, freeing valuable developer time.",
-				"I implemented the frontend and the backend of multiple live-update systems based on WebSockets.",
-				"I was the Scrum Master in our Agile process, obtaining a deep understanding on the Agile culture and why there are certain practices around it.",
-				"I wrote unit, integration and e2e tests (using cypress).",
-				"I worked with Node.js, Redis, MongoDB and PostgreSQL in the backend.",
-				"I worked with React.js, Next.js and jQuery in the frontend."
+				"Lead the developer team, managing people and developing software using test-driven development (TDD).",
+				"Design and build a complex, horizontally scalable RESTful API using Node.js.",
+				"Implement the main custom application-level algorithms for the resource availability, agnostic of resource type and resource characteristics.",
+				"Build a RESTful API using Nest.js for analytics purposes and the booking assistant, the application which end-users book from as well as the  largest part of the dashboard, using React.js.",
+				"Transition the deployment to Kubernetes, with a staging and a production environment, IaC in GCP and a complex CI/CD pipeline within 2 months, cutting operational costs by over 40 percent and facilitating a faster, fully-automatic and less error prone release cycle, freeing valuable developer time.",
+				"Full-stack implementation of multiple live-update systems based on WebSockets.",
+				"Facilitate our Agile methodology as a Scrum Master, obtaining a deep understanding on the Agile culture and why there are certain practices around it.",
+				"Unit, integration and e2e testing (using cypress), working with Node.js, Redis, MongoDB and PostgreSQL in the backend.",
+				"Frontend development using React.js, Next.js and jQuery in the frontend."
 			],
 			"startDate": "Sep 2016",
 			"endDate": "Sep 2020"
