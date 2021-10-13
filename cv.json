@@ -59,8 +59,8 @@
 		},
 		{
 			"highlights": [
-				"I modernized the processes of the company: from doing data entry and manual comparison using different and inconsistent excel files, the users could now do data entry in a friendly and dynamic web interface which I built. The app was fed all the excel files and could do powerful comparisons of the aggregations of the data between different years, and of course allowed entry of new data. The application freed several man-hours per day and as of September 2021 the application is still being used daily. The frontend was built in jQuery and the backend used CakePHP and MySQL.",
-				"I did generic IT support on Windows-based users."
+				"Modernized the processes of the company: from doing manual data entry and manual comparison using different and inconsistent excel files, the users could now do data entry in a friendly and dynamic web interface which I built. The app was fed all the excel files and could do powerful comparisons of the aggregations of the data between different years, and of course allowed entry of new data. The application freed several man-hours per day and as of September 2021 the application is still being used daily. The frontend was built in jQuery and the backend used CakePHP and MySQL.",
+				"Generic IT support on Windows-based users."
 			],
 			"website": "https://ferrycenter.gr/",
 			"company": "Blue Star Ferries Agency",
